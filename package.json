@@ -1,0 +1,21 @@
+{
+  "name": "minecraft-three-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "minecraft-resource-manager": "^0.0.1",
+    "three": "^0.93.0",
+    "three-orbitcontrols": "^2.1.2"
+  },
+  "devDependencies": {
+    "typescript": "2.9.2",
+    "@types/node": "^10.3.5",
+    "@types/three": "^0.92.13"
+  },
+  "author": "",
+  "license": "ISC"
+}
