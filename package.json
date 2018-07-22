@@ -1,6 +1,6 @@
 {
   "name": "minecraft-three-model",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,6 @@
     "@types/node": "^10.3.5",
     "@types/three": "^0.92.13"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "cijhn@hotmail.com",
+  "license": "MIT"
 }
