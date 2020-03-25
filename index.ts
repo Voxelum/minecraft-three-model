@@ -110,12 +110,12 @@ export interface Transform {
 export interface Model {
     /**
      * For Block:
-     * 
+     *
      * Loads a different model from the given path, starting in assets/minecraft/models. If both "parent" and "elements" are set, the "elements" tag overrides the "elements" tag from the previous model.
      * Can be set to "builtin/generated" to use a model that is created out of the specified icon. Note that only the first layer is supported, and rotation can only be achieved using block states files.
-     * 
+     *
      * For Item:
-     * 
+     *
      * Loads a different model from the given path, starting in assets/minecraft/models. If both "parent" and "elements" are set, the "elements" tag overrides the "elements" tag from the previous model.
      * Can be set to "builtin/generated" to use a model that is created out of the specified icon.
      * Can be set to "builtin/entity" to load a model from an entity file. As you can not specify the entity, this does not work for all items (only for chests, ender chests, mob heads, shields and banners).
@@ -331,7 +331,7 @@ export class ThreeModelLoader {
         materials.push(new THREE.MeshBasicMaterial({ transparent: true, opacity: 0, alphaTest: 0.5 }))
 
         /**
-         * Build material 
+         * Build material
          */
 
         // dfs search to flat the texture "tree"
@@ -360,7 +360,7 @@ export class ThreeModelLoader {
                 console.log(load)
                 if (!load) throw new Error(`Cannot find texture @${path}`)
 
-                // build new material 
+                // build new material
                 const loader = new THREE.TextureLoader()
                 const texture = loader.load(`data:image/png;base64,${load.data}`)
 

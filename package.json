@@ -2,7 +2,8 @@
   "name": "minecraft-three-model",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -12,9 +13,9 @@
     "three-orbitcontrols": "^2.1.2"
   },
   "devDependencies": {
-    "typescript": "2.9.2",
-    "@types/node": "^10.3.5",
-    "@types/three": "^0.92.13"
+    "@types/node": "^12.12.31",
+    "@types/three": "^0.92.13",
+    "typescript": "^3.8.3"
   },
   "author": "cijhn@hotmail.com",
   "license": "MIT"
